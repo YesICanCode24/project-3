@@ -14,6 +14,16 @@ class Smartphone {
        color = modelcolor;
        fiveG = dataspeed;
    }
+   
+    public void show(){
+       System.out.println(cost + "|" +
+               brandname + "|" +
+               modelnumber + "|" +
+               phone + "|" +
+               modelcolor + "|" +
+               dataspeed);
+   }
+
  
 
    
