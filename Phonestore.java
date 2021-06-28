@@ -1,17 +1,17 @@
 public class Phonestore {
    String company;
    String location;
-   newSmartphone[] amount;
+   Smartphone[] availablephones;
  
-   Phonestore(String name, String location) {
+   Phonestore(String name, String street) {
      company = name;
       location = street;
-     amount = new Smartphone[3];      // discuss array constraints
+     Smartphone[3] = phonelist;      
    }
  
    void show() {
-       System.out.println(name + ":" + address + ":");
-       for (int i = 0; i < inventory.length; i++) {
-           inventory[i].show();
+       System.out.println(name + "|" + street + "|");
+       for (int i = 0; i < phonelist.length; i++) {
+           phonelist[i].show();
        }
    }
