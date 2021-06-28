@@ -6,9 +6,19 @@ class Smartphone {
    String color;
   Boolean fiveG;
    
+ public Smartphone (String cost, String brandname, String modelnumber, String phone, String modelcolor, Boolean dataspeed) {
+       price = cost;
+       brand = brandname;
+       model = modelnumber;
+       phoneType = phone;
+       color = modelcolor;
+       fiveG = dataspeed;
+   }
  
 
-}
+   
+ 
+
    }
 
 
