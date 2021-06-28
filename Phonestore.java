@@ -1,9 +1,17 @@
-import java.sql.SQLOutput;
-
-public class Main {
-    public static void main(String[] args) {
-        Smartphone myObj = new Smartphone("Nokia", "N93");
-
-        System.out.println(Smartphone.ShowCell());
-    }
-}
+public class Phonestore {
+   String company;
+   String location;
+   newSmartphone[] amount;
+ 
+   Phonestore(String name, String location) {
+     company = name;
+      location = street;
+     amount = new Smartphone[3];      // discuss array constraints
+   }
+ 
+   void show() {
+       System.out.println(name + ":" + address + ":");
+       for (int i = 0; i < inventory.length; i++) {
+           inventory[i].show();
+       }
+   }
