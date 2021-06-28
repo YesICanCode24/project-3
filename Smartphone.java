@@ -15,7 +15,7 @@ class Smartphone {
        fiveG = dataspeed;
    }
    
-    public void show(){
+  public void show(){
        System.out.println(cost + "|" +
                brandname + "|" +
                modelnumber + "|" +
