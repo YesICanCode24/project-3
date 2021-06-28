@@ -1,5 +1,5 @@
 class Smartphone {
-   double price;
+   Double price;
    String brand;
    String model;
    String phoneType;
